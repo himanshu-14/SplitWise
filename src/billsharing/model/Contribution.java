@@ -1,20 +1,20 @@
 package billsharing.model;
 
 public class Contribution implements Comparable<Contribution> {
-	String user;
+	String userId;
 	double amt;
 
-	public Contribution(String key, Double double1) {
-		this.user = key;
-		this.amt = double1;
+	public Contribution(String userId, Double amt) {
+		this.userId = userId;
+		this.amt = amt;
 	}
 
-	public String getUser() {
-		return user;
+	public String getUserId() {
+		return userId;
 	}
 
 	public void setUser(String user) {
-		this.user = user;
+		this.userId = user;
 	}
 
 	public double getAmt() {

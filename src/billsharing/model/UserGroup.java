@@ -8,6 +8,7 @@ public class UserGroup {
 	private List<String> userMails;
 	List<Bill> groupBills;
 	List<MoneyOwed> groupMoneyOwed;
+
 	public List<Bill> getGroupBills() {
 		return groupBills;
 	}
@@ -23,8 +24,6 @@ public class UserGroup {
 	public void setGroupMoneyOwed(List<MoneyOwed> groupMoneyOwed) {
 		this.groupMoneyOwed = groupMoneyOwed;
 	}
-
-
 
 	public UserGroup(String groupName2, ArrayList<String> arrayList) {
 		this.groupName = groupName2;
